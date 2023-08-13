@@ -1,3 +1,4 @@
+@import url('./block/page/page.css');
 @import url('./block/header/header.css');
 @import url('./block/header/__img/header__img.css');
 @import url('./block/header/__description/header__description.css');
@@ -7,3 +8,12 @@
 @import url('./block/numbers/numbers.css');
 @import url('./block/numbers/__title/numbers__title.css');
 @import url('./block/numbers/__img/numbers__img.css');
+@import url('./block/facts/facts.css');
+@import url('./block/facts/__cards/facts__cards.css');
+@import url('./block/facts/__cards/-img/facts__cards-card-img.css');
+@import url('./block/developers/developers.css');
+@import url('./block/developers/__container/developers__container.css');
+@import url('./block/developers/__container/-card/developers__container-card.css');
+@import url('./block/developers/__container/-img/developers__container-img.css');
+@import url('./block/developers/__card/developers__card.css');
+@import url('./block/developers/__card/__card-img/developers__card-img.css');
