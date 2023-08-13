@@ -1,0 +1,7 @@
+.facts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  border: 1px solid red;
+}
