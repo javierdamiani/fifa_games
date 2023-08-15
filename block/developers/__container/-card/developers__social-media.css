@@ -1,0 +1,22 @@
+.developers__social-media {
+  width: 250px;
+}
+
+.developers__social-media ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.developers__social-media li {
+  margin: 0 5px;
+}
+
+.developers__social-media ul a {
+  display: block;
+  padding: 7px;
+  color: #b3b8cd;
+  border: 2px solid #2d2747;
+  border-radius: 2px;
+}

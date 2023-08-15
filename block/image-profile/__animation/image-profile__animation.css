@@ -1,0 +1,179 @@
+.image-profile__animation {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*filter: drop-shadow(0.6rem 0.6rem 0.6rem rgb(20, 20, 180));*/
+  filter: drop-shadow(0.6rem 0.6rem 0.6rem rgb(0, 0, 0));
+  animation: thunderAnimation 2s infinite;
+}
+
+@keyframes thunderAnimation {
+  0% {
+    background-image: url("/images/animaciontrueno/trueno1.png");
+  }
+  1% {
+    background-image: url("/images/animaciontrueno/trueno2.png");
+  }
+  2% {
+    background-image: url("/images/animaciontrueno/trueno3.png");
+  }
+  3% {
+    background-image: url("/images/animaciontrueno/trueno4.png");
+  }
+  4% {
+    background-image: url("/images/animaciontrueno/trueno5.png");
+  }
+  5% {
+    background-image: url("/images/animaciontrueno/trueno6.png");
+  }
+  6% {
+    background-image: url("/images/animaciontrueno/trueno7.png");
+  }
+  7% {
+    background-image: url("/images/animaciontrueno/trueno8.png");
+  }
+  8% {
+    background-image: url("/images/animaciontrueno/trueno9.png");
+  }
+  9% {
+    background-image: url("/images/animaciontrueno/trueno10.png");
+  }
+  10% {
+    background-image: url("/images/animaciontrueno/trueno11.png");
+  }
+  11% {
+    background-image: url("/images/animaciontrueno/trueno12.png");
+  }
+  12% {
+    background-image: url("/images/animaciontrueno/trueno13.png");
+  }
+  13% {
+    background-image: url("/images/animaciontrueno/trueno14.png");
+  }
+  14% {
+    background-image: url("/images/animaciontrueno/trueno15.png");
+  }
+  15% {
+    background-image: url("/images/animaciontrueno/trueno16.png");
+  }
+  16% {
+    background-image: url("/images/animaciontrueno/trueno17.png");
+  }
+  17% {
+    background-image: url("/images/animaciontrueno/trueno18.png");
+  }
+  18% {
+    background-image: url("/images/animaciontrueno/trueno19.png");
+  }
+  19% {
+    background-image: url("/images/animaciontrueno/trueno20.png");
+  }
+  20% {
+    background-image: url("/images/animaciontrueno/trueno21.png");
+  }
+  21% {
+    background-image: url("/images/animaciontrueno/trueno22.png");
+  }
+  22% {
+    background-image: url("/images/animaciontrueno/trueno23.png");
+  }
+  23% {
+    background-image: url("/images/animaciontrueno/trueno24.png");
+  }
+  24% {
+    background-image: url("/images/animaciontrueno/trueno25.png");
+  }
+  25% {
+    background-image: url("/images/animaciontrueno/trueno26.png");
+  }
+  26% {
+    background-image: url("/images/animaciontrueno/trueno27.png");
+  }
+  27% {
+    background-image: url("/images/animaciontrueno/trueno28.png");
+  }
+  28% {
+    background-image: url("/images/animaciontrueno/trueno29.png");
+  }
+  29% {
+    background-image: url("/images/animaciontrueno/trueno30.png");
+  }
+  30% {
+    background-image: url("/images/animaciontrueno/trueno31.png");
+  }
+  31% {
+    background-image: url("/images/animaciontrueno/trueno32.png");
+  }
+  32% {
+    background-image: url("/images/animaciontrueno/trueno33.png");
+  }
+  33% {
+    background-image: url("/images/animaciontrueno/trueno34.png");
+  }
+  34% {
+    background-image: url("/images/animaciontrueno/trueno35.png");
+  }
+  35% {
+    background-image: url("/images/animaciontrueno/trueno36.png");
+  }
+  36% {
+    background-image: url("/images/animaciontrueno/trueno37.png");
+  }
+  37% {
+    background-image: url("/images/animaciontrueno/trueno38.png");
+  }
+  38% {
+    background-image: url("/images/animaciontrueno/trueno39.png");
+  }
+  39% {
+    background-image: url("/images/animaciontrueno/trueno40.png");
+  }
+  40% {
+    background-image: url("/images/animaciontrueno/trueno41.png");
+  }
+  41% {
+    background-image: url("/images/animaciontrueno/trueno42.png");
+  }
+  42% {
+    background-image: url("/images/animaciontrueno/trueno43.png");
+  }
+  43% {
+    background-image: url("/images/animaciontrueno/trueno44.png");
+  }
+  44% {
+    background-image: url("/images/animaciontrueno/trueno45.png");
+  }
+  45% {
+    background-image: url("/images/animaciontrueno/trueno46.png");
+  }
+  46% {
+    background-image: url("/images/animaciontrueno/trueno47.png");
+  }
+  47% {
+    background-image: url("/images/animaciontrueno/trueno48.png");
+  }
+  48% {
+    background-image: url("/images/animaciontrueno/trueno49.png");
+  }
+  49% {
+    background-image: url("/images/animaciontrueno/trueno50.png");
+  }
+  50% {
+    background-image: url("/images/animaciontrueno/trueno51.png");
+  }
+  51% {
+    background-image: url("/images/animaciontrueno/trueno52.png");
+  }
+  52% {
+    background-image: url("/images/animaciontrueno/trueno53.png");
+  }
+  53% {
+    background-image: url("/images/animaciontrueno/trueno54.png");
+  }
+  to {
+    background-image: url("");
+  }
+}

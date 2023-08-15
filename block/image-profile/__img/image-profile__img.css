@@ -1,0 +1,21 @@
+.image-profile__img {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #94e9f7;
+  animation: shineBlue 2s infinite;
+  z-index: 1;
+}
+
+@keyframes shineBlue {
+  from {
+    box-shadow: 0 0 20px #2657f6;
+  }
+  50% {
+    box-shadow: 0 0 40px #2657f6;
+  }
+  to {
+    box-shadow: 0 0 20px #2657f6;
+  }
+}

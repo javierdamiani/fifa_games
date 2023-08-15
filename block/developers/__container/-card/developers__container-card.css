@@ -1,7 +1,28 @@
 .developers__container-card {
   display: flex;
+  width: 100%;
+  max-width: 350px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  background-color: #231e39;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  color: #b3b8cd;
+  padding-top: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .developers__container-card {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .developers__container-card {
+    max-width: 320px;
+    min-width: 250px;
+  }
 }

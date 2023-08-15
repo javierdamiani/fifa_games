@@ -1,0 +1,21 @@
+.developers__card-skills {
+  background-color: #1c1831;
+  text-align: left;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.developers__card-skills ul {
+  list-style-type: none;
+  margin: 7px 0 0 0;
+  padding: 0;
+}
+
+.developers__card-skills ul li {
+  border: 2px solid #2d2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
