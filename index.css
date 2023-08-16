@@ -12,12 +12,7 @@
 @import url("./block/numbers/__img/numbers__img.css");
 @import url("./block/facts/facts.css");
 @import url("./block/facts/__cards/facts__cards.css");
-@import url("./block/facts/__subtitle/facts__subtitle.css");
 @import url("./block/facts/__cards/-img/facts__cards-card-img.css");
-
-@import url("./block/facts/__cards/-inner/facts__cards-card-inner.css");
-
-@import url("./block/facts/__cards-card/facts__cards-card.css");
 @import url("./block/developers/developers.css");
 @import url("./block/developers/__container/developers__container.css");
 @import url("./block/image-profile/image-profile.css");

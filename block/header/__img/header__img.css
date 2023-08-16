@@ -1,4 +1,5 @@
 .header__img {
+  padding-top: 20px;
   width: 40%;
   border-radius: 30% 70% 70% 30% / 39% 30% 70% 61%;
   animation: moveBorderRadius 4s linear infinite;
