@@ -1,4 +1,5 @@
 .developers__card-skills {
+  display: block;
   background-color: #1c1831;
   text-align: left;
   padding: 15px;

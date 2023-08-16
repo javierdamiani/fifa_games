@@ -1,0 +1,11 @@
+.facts__cards-card {
+  width: 350px;
+  text-align: center;
+}
+
+.facts__cards-card:hover .facts__cards-card-inner::after,
+.facts__cards-card:hover .facts__cards-card-inner::before {
+  border-color: red;
+  width: 100%;
+  height: 100%;
+}

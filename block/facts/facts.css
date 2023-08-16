@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px auto;
-  border: 1px solid red;
+  margin: 50px auto;
+  row-gap: 20px;
 }
