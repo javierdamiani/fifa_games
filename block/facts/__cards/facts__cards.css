@@ -1,5 +1,17 @@
 .facts__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .facts__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .facts__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

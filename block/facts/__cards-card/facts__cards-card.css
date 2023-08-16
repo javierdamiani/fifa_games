@@ -1,5 +1,6 @@
 .facts__cards-card {
-  width: 350px;
+  max-width: 350px;
+  min-width: 280px;
   text-align: center;
 }
 
