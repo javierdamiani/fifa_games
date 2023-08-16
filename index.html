@@ -2,42 +2,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fifa Games</title>
+    <title>Dentro del Terreno</title>
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <h1 class="header__title">Partidos de la FIFA</h1>
-        <h2 class="header__subtitle">Acá se presentará el subtitulo</h2>
+        <h1 class="header__title">Dentro del Terreno:</h1>
+        <h2 class="header__subtitle">
+          Datos y Estadísticas de Partidos de la FIFA
+        </h2>
         <img src="./images/header__img.jpg" alt="" class="header__img" />
         <p class="header__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          assumenda dicta dolorem nihil autem officiis sequi tempora ea,
-          pariatur animi officia dolores neque in voluptates ipsam veritatis.
-          Quae, eius itaque!
+          Sumérgete en el apasionante mundo del fútbol a través de nuestra
+          colección de Datos y Estadísticas de Partidos de la FIFA. Explora un
+          compendio detallado de información que abarca desde las estadísticas
+          de equipos destacados hasta los logros individuales de jugadores
+          icónicos. Nuestra plataforma te brinda una visión profunda de los
+          encuentros más memorables, resultados, tendencias históricas y
+          curiosidades que rodean el universo del balompié internacional. Ya
+          seas un fanático acérrimo o un ávido seguidor de datos, aquí
+          encontrarás una fuente invaluable para comprender el juego en su
+          totalidad.
         </p>
       </header>
       <section class="info">
-        <h2 class="info__title">Titulo 2</h2>
+        <h2 class="info__title">Explora la Esencia del Fútbol</h2>
         <p class="info__text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-          quibusdam harum asperiores corporis magnam, tempore modi architecto
-          animi nam exercitationem ut est vel a aliquam sint officiis odit
-          maxime sit!
+          Sumérgete en el mundo del fútbol a través de nuestra página. Aquí
+          encontrarás una selección de artículos y recursos que te brindarán una
+          visión completa y apasionante del deporte más popular del planeta.
+          Desde la historia de los equipos más legendarios hasta los momentos
+          que han marcado la historia del fútbol, esta sección es tu guía
+          definitiva para conocer todos los aspectos que hacen que este deporte
+          sea único y emocionante. Prepárate para descubrir curiosidades, datos
+          fascinantes y anécdotas que te harán amar aún más el hermoso juego.
         </p>
         <img src="./images/header__img.jpg" alt="" class="info__img" />
       </section>
       <section class="numbers">
-        <h1 class="numbers__title">Aquí irá el título de data</h1>
+        <h1 class="numbers__title">Tasa de victorias por países</h1>
         <p class="numbers__text">
-          Aquí irá la descripción e historia de la data
+          La data de la tasa de victorias por países en los partidos de la FIFA
+          ofrece una visión fascinante de las trayectorias competitivas de las
+          naciones a lo largo de los años. Al explorar esta información, se
+          revela un panorama dinámico de los equipos que han demostrado un
+          rendimiento excepcional en el terreno de juego. A través de un
+          análisis detallado de las estadísticas, se puede observar cómo ciertos
+          países han emergido como líderes consistentes, logrando mantener tasas
+          de victorias impresionantes en distintos periodos. Esta data no solo
+          arroja luz sobre los equipos más exitosos, sino que también
+          proporciona una perspectiva histórica de cómo ha evolucionado el
+          panorama futbolístico a nivel global. Los registros de victorias
+          ofrecen una ventana hacia las hazañas y rivalidades que han dado forma
+          a la historia del fútbol, permitiendo a los aficionados apreciar la
+          pasión y el espíritu competitivo que caracterizan este deporte a nivel
+          mundial.
         </p>
-        <div class="numbers__img"></div>
+        <div class="numbers__img">
+          <img src="./images/win_rate.jpeg" />
+        </div>
       </section>
       <section class="facts">
         <h2 class="facts__title">Datos curiosos</h2>
@@ -79,6 +109,16 @@
             </p>
           </div>
         </div>
+      </section>
+      <section class="ranking">
+        <div class="ranking__container"></div>
+        <!-- <div class="ranking__circle" data-year="2021">
+          <span class="ranking__circle-text"></span>
+          <div class="ranking__circle-countries">
+            <div class="ranking__circle-country"></div>
+            <div class="ranking__circle-country"></div>
+            <div class="ranking__circle-country"></div>
+          </div> -->
       </section>
       <section class="developers">
         <h2 class="developers__title">Conócenos</h2>

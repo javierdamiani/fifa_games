@@ -1,0 +1,6 @@
+.ranking {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 880px;
+}
