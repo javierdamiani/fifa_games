@@ -21,6 +21,7 @@
 @import url('./block/ranking/__circle/-text/ranking__circle-text.css');
 @import url('./block/ranking/__circle/-countries/ranking__circle-countries.css');
 @import url('./block/ranking/__circle/-country/ranking__circle-country.css');
+@import url('./block/ranking/__title/ranking__title.css');
 @import url('./block/developers/developers.css');
 @import url('./block/developers/__container/developers__container.css');
 @import url('./block/image-profile/image-profile.css');

@@ -1,7 +1,6 @@
 .info {
   display: flex;
   gap: 20px;
-  border: 1px solid red;
   margin: 0 auto;
   max-width: 1000px;
   width: 95%;
