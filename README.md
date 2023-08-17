@@ -17,15 +17,15 @@ los metodos aplicados fuero EDA (Analisis explotario de datos), visualizaciones 
 
 ### Vista diseño pc
 
-![preview de web pc](./images/screen1.png)
+![preview de web pc](./images/screen-diseño1.png)
 
 ### Vista diseño para tablets
 
-![preview de web tablet](./images/screen2.png)
+![preview de web tablet](./images/screen-diseño2.png)
 
 ### Vista diseño para dispositivos móviles
 
-![preview de web móvil](./images/screen3.png)
+![preview de web móvil](./images/screen-diseño3.png)
 
 ### Autores
 
