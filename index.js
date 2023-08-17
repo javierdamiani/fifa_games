@@ -58,6 +58,7 @@ const images = [
   "./images/info.jpg",
   "./images/info2.jpg",
   "./images/info3.jpg",
+  "./images/ganadores.jpg",
 ];
 let currentImageIndex = 0;
 
