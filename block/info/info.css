@@ -2,10 +2,24 @@
   display: flex;
   gap: 30px;
   margin: 50px auto;
+  justify-content: center;
+  align-items: center;
   max-width: 1000px;
   padding: 20px;
   background: linear-gradient(#f4f1ed, #f4f1ed) padding-box,
     linear-gradient(155deg, transparent 35%, #3e4f67, #3e4f67) border-box;
   border: 2px solid transparent;
   border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .info {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info {
+    flex-direction: column;
+  }
 }

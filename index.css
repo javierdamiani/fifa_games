@@ -2,6 +2,7 @@
 @import url("./root/root.css");
 @import url("./block/page/page.css");
 @import url("./block/header/header.css");
+@import url("./block/header/__content/header__content.css");
 @import url("./block/header/__img/header__img.css");
 @import url("./block/header/__description/header__description.css");
 @import url("./block/info/info.css");

@@ -53,7 +53,7 @@ yearCircles.forEach((circle) => {
 //Este es un código para la sección info donde para la transición de imagenes, lo pongo aquí para no mover
 // si es necesario lo puedes mover.
 
-const backgroundDiv = document.querySelector(".info__img");
+const backgroundImg = document.querySelector(".info__img");
 const images = [
   "./images/info.jpg",
   "./images/info2.jpg",
@@ -63,11 +63,11 @@ let currentImageIndex = 0;
 
 function changeBackground() {
   currentImageIndex = (currentImageIndex + 1) % images.length;
-  backgroundDiv.style.opacity = 0;
+  backgroundImg.style.opacity = 0;
 
   setTimeout(() => {
-    backgroundDiv.setAttribute("src", images[currentImageIndex]);
-    backgroundDiv.style.opacity = 1;
+    backgroundImg.setAttribute("src", images[currentImageIndex]);
+    backgroundImg.style.opacity = 1;
   }, 1000);
 }
 

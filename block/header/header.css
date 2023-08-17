@@ -1,10 +1,16 @@
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-  border: 1px solid red;
+  max-width: 1200px;
+  gap: 30px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
 }

@@ -1,3 +1,7 @@
 .numbers__img {
-  /* object-fit: cover; */
+  width: 100%;
+}
+
+.numbers__img img {
+  width: 100%;
 }

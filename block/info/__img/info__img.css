@@ -2,4 +2,11 @@
   max-height: 500px;
   max-width: 500px;
   transition: opacity 1s ease;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .info__img {
+    max-width: 320px;
+  }
 }
