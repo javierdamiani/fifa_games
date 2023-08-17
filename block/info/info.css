@@ -7,7 +7,7 @@
   max-width: 1000px;
   padding: 20px;
   background: linear-gradient(#f4f1ed, #f4f1ed) padding-box,
-    linear-gradient(155deg, transparent 35%, #3e4f67, #3e4f67) border-box;
+    linear-gradient(225deg, transparent 35%, #3e4f67, #3e4f67) border-box;
   border: 2px solid transparent;
   border-radius: 8px;
 }
