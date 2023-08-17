@@ -1,4 +1,5 @@
 .info__img {
   max-height: 500px;
   max-width: 500px;
+  transition: opacity 1s ease;
 }

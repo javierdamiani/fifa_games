@@ -1,9 +1,9 @@
 .developers__card-skills {
   display: block;
-  background-color: #1c1831;
+  background-color: #3e4f67;
   text-align: left;
   padding: 15px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .developers__card-skills ul {
@@ -13,8 +13,8 @@
 }
 
 .developers__card-skills ul li {
-  border: 2px solid #2d2747;
-  border-radius: 2px;
+  border: 2px solid #8191a7;
+  border-radius: 4px;
   display: inline-block;
   font-size: 12px;
   margin: 0 7px 7px 0;

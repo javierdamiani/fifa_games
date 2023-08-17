@@ -1,0 +1,7 @@
+.info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: fit-content;
+  align-self: center;
+}

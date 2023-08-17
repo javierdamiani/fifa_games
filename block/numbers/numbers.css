@@ -1,9 +1,9 @@
 .numbers {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 0 auto;
   max-width: 800px;
 }
